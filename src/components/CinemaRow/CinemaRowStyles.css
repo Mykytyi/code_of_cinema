@@ -1,0 +1,43 @@
+.rowNumericField {
+  position: absolute;
+  top: 10px;
+  left: -50px;
+  color: rgba(0, 213, 227, 0.9);
+}
+
+li .cinemaRow {
+  display: flex;
+}
+
+.onePlace {
+  margin-right: 11px;
+  margin-bottom: 10px;
+  padding: 8px 0 0 14px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(0, 111, 124, 0.9);
+  border-radius: 4px;
+  color: rgba(0, 213, 227, 0.9);
+  background-color: rgba(0, 213, 227, 0.09);
+  box-sizing: border-box;
+}
+
+.onePlace:hover {
+  box-shadow: 0 0 10px rgba(241, 241, 241, 0.45);
+}
+
+.onePlace:last-child {
+  margin-right: 0;
+}
+
+.notFree {
+  background-color: black;
+  color: grey;
+}
+
+.notFree:hover {
+  box-shadow: none;
+}
+.chosenPlace {
+  box-shadow: 0 0 10px rgba(241, 241, 241, 0.45);
+}
