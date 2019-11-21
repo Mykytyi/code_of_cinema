@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #0f1b33;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
